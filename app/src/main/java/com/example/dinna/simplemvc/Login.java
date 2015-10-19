@@ -27,8 +27,7 @@ public class Login extends AppCompatActivity {
         password = (EditText) findViewById(R.id.password);
         loginbtn = (Button) findViewById(R.id.loginbtn);
 
-        // Switching activities and passing a string
-        // https://www.youtube.com/watch?v=6AoBM110DAY
+        // Switching activities and passing a string: https://www.youtube.com/watch?v=6AoBM110DAY
         loginbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

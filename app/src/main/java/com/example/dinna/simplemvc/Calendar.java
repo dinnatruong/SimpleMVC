@@ -17,8 +17,7 @@ public class Calendar extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        // Creating a calendar view
-        // https://www.youtube.com/watch?v=ZHLCfqN-60A
+        // Creating a calendar view: https://www.youtube.com/watch?v=ZHLCfqN-60A
         calendar = (CalendarView) findViewById(R.id.calendarView);
         calendar.setOnDateChangeListener(new CalendarView.OnDateChangeListener() {
             @Override
