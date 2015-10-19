@@ -30,6 +30,9 @@ public class Gallery extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
+        // Creating a picture gallery
+        // https://www.youtube.com/watch?v=cGt5t8ID_5Q
+
         android.widget.Gallery gallery = (android.widget.Gallery) findViewById(R.id.gallery1);
         gallery.setAdapter(new ImageAdapter(this));
         imageView = (ImageView) findViewById(R.id.imageView);
